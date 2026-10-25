@@ -25,8 +25,8 @@ app.use(cors({
     if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.includes('*')) {
       return callback(null, true);
     }
-    // Allow any onrender.com preview subdomain or localhost port
-    if (origin.endsWith('.onrender.com') || origin.startsWith('http://localhost:')) {
+    // Allow any onrender.com or netlify.app preview/production domains or localhost port
+    if (origin.endsWith('.onrender.com') || origin.endsWith('.netlify.app') || origin.startsWith('http://localhost:')) {
       return callback(null, true);
     }
     return callback(null, true); // Permissive in production for client convenience

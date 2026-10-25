@@ -7,8 +7,8 @@ A production-grade RESTful API service built with **Node.js**, **Express.js**, a
 ## 🔗 Submission Details
 
 - **Backend GitHub Repository**: `https://github.com/ImtiazAhmed01/doctortracker-server-side`
-- **Live Backend API URL**: `https://doctortracker-server.onrender.com`
-- **Health Check Endpoint**: `https://doctortracker-server.onrender.com/health`
+- **Live Backend API URL**: `https://doctortracker-server-side.onrender.com`
+- **Health Check Endpoint**: `https://doctortracker-server-side.onrender.com/health`
 
 ---
 
